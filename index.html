@@ -5,36 +5,245 @@
   <title>CodePen - Trello Clone</title>
   <link rel="stylesheet" href="./style.css">
 
+   <!-- Google font API -->
+   <link
+   href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+   rel="stylesheet"
+ />
+
+ <!-- Font awesome -->
+ <link
+   rel="stylesheet"
+   href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+   crossorigin="anonymous"
+ />
+
+ <!-- HTML and CSS validation passed -->
+
 </head>
 <body>
-  <!-- On the initial Dublin Bus app I implemented a button "Availability" which change its color depending on the occupancy grade, and when was accessed it display information to the user about occuapancy grade how may seats available on the bus   -->
+  <!-- On the initial Dublin Bus app I implemented a button "Availability" which change its color depending on the occupancy grade, 
+    and when was accessed it display information to the user about occuapancy grade how may seats available on the bus   -->
 <!-- partial:index.partial.html -->
 <div id="main">
   <div class="list" draggable="false">
-    <div class="title removable editable" contenteditable="false" spellcheck="false">Product Backlog</div>
+    <div
+      class="title removable editable"
+      contenteditable="false"
+      spellcheck="false"
+    >
+      Product Backlog
+    </div>
     <div class="content">
+      <div
+        class="card removable editable taskCardGroup3"
+        contenteditable="false"
+      >
+        Database functionality -storing data about available seating numbers
+        <i class="fas fa-thumbs-up"></i> <!-- Font awesome icon-->
+      </div>
+      <div
+        class="card removable editable taskCardUpdate"
+        contenteditable="false"
+      >
+        New "Availability" button implemetation
+        <i class="fas fa-arrows-alt-v fa-fw"></i> <!-- Font awesome icon-->
+      </div>
+      <div class="card removable editable" contenteditable="false">
+        Create a backup for data received from each bus
+        <i class="fas fa-address-card"></i> <!-- Font awesome icon-->
+      </div>
+      <div
+        class="card removable editable taskCardGroup1"
+        contenteditable="false"
+      >
+        Check customers feedback <i class="fas fa-arrows-alt-v fa-fw"></i> <!-- Font awesome icon-->
+      </div>
+      <div
+        class="card removable editable taskCardUpdate"
+        contenteditable="false"
+        draggable="false"
+      >
+        Dublin Bus new logo design <i class="fas fa-check-square"></i> <!-- Font awesome icon-->
+      </div>
+      <div
+        class="card removable editable"
+        contenteditable="false"
+        draggable="false"
+      >
+        Dublin Bus Home page design <i class="far fa-clock"></i>
+      </div>
+    </div>
 
-
-    <div class="card removable editable" contenteditable="false">Database functionality -storing data about available seating numbers</div><div class="card removable editable" contenteditable="false">New "Availability" button implemetation</div><div class="card removable editable" contenteditable="false">Create a backup for data received from each bus</div><div class="card removable editable" contenteditable="false">Check customers feedback</div></div>
-
-  <div class="add-card editable">Add another card</div></div>
+    <div class="add-card editable">Add another card</div>
+  </div>
   <div class="list" draggable="false">
-    <div class="title removable editable" contenteditable="false" spellcheck="false">Current Sprint Backlog</div>
+    <div
+      class="title removable editable"
+      contenteditable="false"
+      spellcheck="false"
+    >
+      Current Sprint Backlog
+    </div>
     <div class="content">
+      <div class="card removable editable" contenteditable="false">
+        Network system error -when data is received from the bus computer
+        board. <i class="fas fa-check-square"></i>
+      </div>
+      <div
+        class="card removable editable taskCardGroup1"
+        contenteditable="false"
+      >
+        Database integrity checks <i class="fas fa-band-aid fa-fw"></i>
+      </div>
+      <div
+        class="card removable editable taskCardGroup3"
+        contenteditable="false"
+      >
+        Bus real-time arrival not display correctly.<i
+          class="fas fa-band-aid fa-fw"
+        ></i>
+      </div>
+      <div
+        class="card removable editable taskCardUpdate"
+        contenteditable="false"
+      >
+        Comply with all the web Standards <i class="fas fa-bell"></i>
+      </div>
+      <div class="card removable editable" contenteditable="false">
+        Search filter bar not working properly
+        <i class="fas fa-arrows-alt-v fa-fw"></i>
+      </div>
+      <div
+        class="card removable editable taskCardGroup2"
+        contenteditable="false"
+      >
+        Improve backend functionality <i class="fas fa-thumbs-up"></i>
+      </div>
+    </div>
 
-    <div class="card removable editable" contenteditable="false">Network system error -when data is received from the bus computer board.</div><div class="card removable editable" contenteditable="false">Database integrity checks</div><div class="card removable editable" contenteditable="false">Bus real-time arrival not display correctly.</div><div class="card removable editable" contenteditable="false">Comply with all the web Standards</div></div>
-
-  <div class="add-card editable">Add another card</div></div>
+    <div class="add-card editable">Add another card</div>
+  </div>
   <div class="list" draggable="false">
-    <div class="title removable editable" contenteditable="false" spellcheck="false">In Progress</div>
-    <div class="content"><div class="card removable editable" contenteditable="false">Upgrade display on foldable mobile devices.</div><div class="card removable editable" contenteditable="false">Implement occupancy color system</div><div class="card removable editable" contenteditable="false">Information received from the bus computer board needs to be processed correctly</div><div class="card removable editable" contenteditable="false">Support Accessibility, universal design</div></div>
+    <div
+      class="title removable editable"
+      contenteditable="false"
+      spellcheck="false"
+    >
+      In Progress
+    </div>
+    <div class="content">
+      <div
+        class="card removable editable taskCardGroup2"
+        contenteditable="false"
+      >
+        Upgrade display on foldable mobile devices.
+        <i class="fas fa-arrows-alt-v fa-fw"></i>
+      </div>
+      <div
+        class="card removable editable taskCardGroup3"
+        contenteditable="false"
+      >
+        Implement occupancy color system <i class="fas fa-thumbs-up"></i>
+      </div>
+      <div class="card removable editable" contenteditable="false">
+        Information received from the bus computer board needs to be
+        processed correctly <i class="fas fa-band-aid fa-fw"></i>
+      </div>
+      <div
+        class="card removable editable taskCardUpdate"
+        contenteditable="false"
+      >
+        Support Accessibility, universal design
+        <i class="fas fa-wheelchair"></i>
+      </div>
+      <div class="card removable editable" contenteditable="false">
+        Backend bug on displaying the correct numbers from bus&nbsp;
+        <i class="fas fa-bell"></i>
+      </div>
+      <div
+        class="card removable editable taskCardGroup1"
+        contenteditable="false"
+      >
+        Design clear navigation for "Availability" button
+        <i class="fas fa-thumbs-up"></i>
+      </div>
+    </div>
 
-  <div class="add-card editable">Add another card</div></div>
-<div class="list">
-  <div class="title removable editable" contenteditable="false" spellcheck="false">Review</div>
-<div class="content"><div class="card removable editable" contenteditable="false">Design system configuration</div><div class="card removable editable" contenteditable="false">Test the new display button feature</div></div><div class="add-card editable">Add another card</div></div><div class="list"><div class="title removable editable" contenteditable="false" spellcheck="false">Done</div><div class="content"><div class="card removable editable" contenteditable="false">Improve app speed so the users get updates in real time.</div><div class="card removable editable" contenteditable="false">Prototype "Availability" button function</div></div><div class="add-card editable">Add another card</div></div><div class="list"><div class="title removable editable" contenteditable="false" spellcheck="false">Additional Resources</div><div class="content"><div class="card removable editable" contenteditable="false">Security complience</div></div><div class="add-card editable">Add another card</div></div></div>
-
-
+    <div class="add-card editable">Add another card</div>
+  </div>
+  <div class="list">
+    <div
+      class="title removable editable"
+      contenteditable="false"
+      spellcheck="false"
+    >
+      Review
+    </div>
+    <div class="content">
+      <div
+        class="card removable editable taskCardGroup1"
+        contenteditable="false"
+      >
+        Design system configuration <i class="fas fa-bell"></i>
+      </div>
+      <div class="card removable editable" contenteditable="false">
+        Test the new display button feature <i class="far fa-clock"></i>
+      </div>
+      <div
+        class="card removable editable taskCardGroup2"
+        contenteditable="false"
+      >
+        Review final design of displaying numbers
+        <i class="fas fa-arrows-alt-v fa-fw"></i>
+      </div>
+      <div class="card removable editable" contenteditable="false">
+        API improvements <i class="fas fa-thumbs-up"></i>
+      </div>
+    </div>
+    <div class="add-card editable">Add another card</div>
+  </div>
+  <div class="list">
+    <div
+      class="title removable editable"
+      contenteditable="false"
+      spellcheck="false"
+    >
+      Done
+    </div>
+    <div class="content">
+      <div class="card removable editable taskDone" contenteditable="false">
+        Improve app speed so the users get updates in real time.<i
+          class="fas fa-arrows-alt-v fa-fw"
+        ></i>
+      </div>
+      <div class="card removable editable taskDone" contenteditable="false">
+        Prototype "Availability" button function<i
+          class="fas fa-thumbs-up"
+        ></i>
+      </div>
+      <div class="card removable editable taskDone" contenteditable="false">
+        Simulation display ocupancy <i class="fas fa-check-square"></i>
+      </div>
+    </div>
+    <div class="add-card editable">Add another card</div>
+  </div>
+  <div class="list">
+    <div
+      class="title removable editable"
+      contenteditable="false"
+      spellcheck="false"
+    >
+      Additional Resources
+    </div>
+    <div class="content">
+      <div class="card removable editable" contenteditable="false">
+        Security complience <i class="fas fa-thumbs-up"></i>
+      </div>
+    </div>
+    <div class="add-card editable">Add another card</div>
+  </div>
+</div>
 <!--partial--> 
   <script src='https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js'></script><script  src="./script.js"></script>
 

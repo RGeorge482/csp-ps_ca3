@@ -1,8 +1,10 @@
+
+/* Backgroud image update */
 body {
-  font-family: sans-serif;
   color: #172b4d;
-  background-color: #0279bf;
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #ffafb2);
   display: flex;
+  font-family: sans-serif;
   align-items: start;
 }
 
@@ -15,8 +17,9 @@ div {
   align-items: start;
 }
 
+
 .title {
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .editable {
@@ -44,14 +47,33 @@ div {
   border-bottom: 1px solid #aaa;
 }
 
+/*Tasks colors*/
+.taskCardUpdate{
+  background-color: #4e8efc;
+}
+
+.taskCardGroup1{
+  background-color: #f0fd7c;
+}
+
+.taskCardGroup2{
+  background-color: #7cfd91;
+}
+
+.taskCardGroup3{
+  background-color: #fca0ef;
+}
+
+.taskDone{
+  background-color: #d2fffd;
+}
+
 .list {
-/*   padding: 7px; */
   min-width: 280px;
   margin: 10px 5px;
   position: relative;
-  background: #dfe1e6;
+  background: #c1d2fd;
 }
-
 
 .add-list {
   min-width: 280px;
@@ -74,7 +96,6 @@ div {
   margin-top: 0px;
   color: gray;
   text-decoration: none;
-/*   border-bottom: 1px solid #dfe1e6; */
 }
 
 .add-card:hover {
