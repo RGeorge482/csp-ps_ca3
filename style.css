@@ -4,7 +4,6 @@ body {
   color: #172b4d;
   background-image: linear-gradient(to right, #c6ffdd, #fbd786, #ffafb2);
   display: flex;
-  font-family: sans-serif;
   align-items: start;
 }
 
@@ -25,8 +24,8 @@ div {
 .editable {
   user-select: none;
   outline: none;
-  margin: 7px;
-  padding: 10px;
+  margin: 10px;
+  padding: 40px;
   cursor: pointer !important;
   display: flex;
   justify-content: space-between;
@@ -106,3 +105,4 @@ div {
   font-weight: 600;
   color: gray;
 }
+
