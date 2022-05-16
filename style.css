@@ -21,6 +21,7 @@ div {
   font-weight: 800;
 }
 
+/* Editable area changed */
 .editable {
   user-select: none;
   outline: none;
@@ -31,6 +32,7 @@ div {
   justify-content: space-between;
 }
 
+/* Editing area changed */
 .editing {
   background: white;
   color: #172b4d !important;
@@ -46,7 +48,7 @@ div {
   border-bottom: 1px solid #aaa;
 }
 
-/*Tasks colors*/
+/*Tasks colors available for different groups*/
 .taskCardUpdate{
   background-color: #4e8efc;
 }
@@ -67,6 +69,7 @@ div {
   background-color: #d2fffd;
 }
 
+/* List changes */
 .list {
   min-width: 280px;
   margin: 10px 5px;
